@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <script src="../assets/bootstrap/jquery/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+
+<header class="navegacion">
+    <div class="row justify-content-around">
+        <img src="../assets/img/logo.png" alt="logo">
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase font-weight-bold " href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a class="nav-link text-uppercase font-weight-bold " href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-uppercase font-weight-bold " href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<body>
+    <form class=" w-75 container mt-3">
+
+        <div class="form-group row">
+            <label for="nombre" class="col-sm-2 col-form-label">Nombre y Apellido</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="nombre" placeholder="Roberto Alvarez" required>
+            </div>
+        </div>
+        <div class="form-group row mt-3">
+            <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail" placeholder="email@dominio.com">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="telefono" class="col-sm-2 col-form-label">Teléfono</label>
+            <div class="col-sm-10">
+                <input type="tel" class="form-control" id="telefono" placeholder="(XX) XXXX XXXX" required>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="textArea " class="col-sm-2 col-form-label">Mensaje</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" id="textArea" rows="3" required></textarea>
+            </div>
+        </div>
+
+        <fieldset class="form-group">
+            <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">¿Como le gustaria que nos contactemos?</legend>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="radio-email" value="option1"
+                            checked>
+                        <label class="form-check-label" for="radio-email">
+                            Email
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="radio-telefono"
+                            value="option2">
+                        <label class="form-check-label" for="radio-telefono">
+                            Teléfono
+                        </label>
+                    </div>
+                    <div class="form-check ">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="radio-whatsapp"
+                            value="option3" checked>
+                        <label class="form-check-label" for="radio-whatsapp">
+                            WhatsApp
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">¿En que horario prefiere ser atendido?</label>
+            <select class="col-sm-10 form-control">
+                <option>Mañana</option>
+                <option>Tarde</option>
+                <option>Noche</option>
+            </select>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1" checked>
+                    <label class="form-check-label" for="gridCheck1" >
+                        Te gustaria recibir informacion nuestra?
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-10">
+                <button type="submit" value="submit" class="btn btn-primary">Enviar formulario</button>
+            </div>
+        </div>
+    </form>
+    <table class="w-50 container table text-center">
+        <thead class="thead-light ">
+            <tr>
+                <th scope="col">Dia</th>
+                <th scope="col">Horario</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lunes a viernes</td>
+                <td>08hs ~ 20hs</td>
+            </tr>
+            <tr>
+                <td>sabados</td>
+                <td>10hs ~ 16hs</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+<footer class="fondo text-center mt-5">
+    <img src="../assets/img/logo-blanco.png" alt="logo">
+    <p class="copyright">&copy Copyright Barberia Alura 2022</p>
+</footer>
+
+</html>

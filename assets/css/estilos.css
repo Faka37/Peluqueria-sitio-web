@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+/*  INDEX   */
+
+.banner {
+    height: 530px;
+    object-position:bottom;
+    object-fit:cover;
+}
+
+.informacion-central {
+    padding: auto;
+    background: #fefefe;
+}
+
+.utensillo {
+    width:120px ;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.mapa {
+    padding:  3em 0 ;
+    background:linear-gradient(#fefefe , #888888  );
+}
+
+.mapa-contenido {
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+}
+
+
+.diferencias {
+    background: #888888;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.lista {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.img_diferencias {
+    box-shadow: 10px 10px 30px 10px #000000;
+    padding-right: 0; 
+    padding-left: 0;
+    transition: .3s opacity;
+}
+
+.img_diferencias:hover{
+    opacity: 0.8;
+}
+
+/*  PRODUCTO   */
+.navegacion {
+    background-color: #ccc;
+}
+
+.row {
+    margin-right: 0;
+}
+
+.card {
+    width: 330px;
+    vertical-align: top;
+    display: inline-block;
+    border: 2px solid rgba(0, 0, 0, 0.466) ;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.534);
+    border-radius: 20px 10px;
+    padding: 30px 20px;   
+}
+
+.card:hover {
+    border: 2px solid #c78c19 ;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.678);
+    
+}
+
+.card:hover h2{
+    transform: scale(1.1, 1.1);
+}
+
+.card:active {
+    border: 2px solid rgb(28, 25, 199) ;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.678);
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:rgb(199, 140, 25)
+}
+
+.fondo {
+    color: #fff;
+    background: url(/assets/img/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    font-size: 13px;
+    margin: 20px;
+}
+
+
