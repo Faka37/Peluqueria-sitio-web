@@ -116,7 +116,7 @@ ul {
 
 .fondo {
     color: #fff;
-    background: url(/assets/img/bg.jpg);
+    background: url(../img/bg.jpg);
     padding: 40px;
 }
 
